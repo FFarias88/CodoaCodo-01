@@ -1,0 +1,198 @@
+.navbar-light {
+    background-color: #353a40;
+}
+
+.text-icon-navbar{
+    font: bold;
+    color: #fff;
+}
+
+#navbarTogglerDemo02 li .nav-link {
+    color:#9a9ea1;
+}
+
+#navbarTogglerDemo02 li .active {
+color: #fff;
+}
+
+#navbarTogglerDemo02 #comprar-ticket {
+    color: green;
+}
+
+
+
+.first-image {
+    background-image: url(imagenes/ba1-01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 31rem;
+    color: #fff;
+    text-align: right;
+    position: relative;
+}
+
+.first-image::before {
+    content: "";
+    position: absolute;
+    background-color: #000;
+    opacity: 0.5;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.portada {
+    color: #fff;
+    text-align: right;
+    width: 37%;
+    margin-left: 730px; 
+    padding-top: 130px;
+    position: relative;
+}
+
+
+.quiero-ser-orador {
+    border: 1px #fff solid;
+    color: #fff;
+    background-color: transparent;
+    position: relative;
+}
+
+.quiero-ser-orador:hover {
+    color: #fff;
+}
+
+.compra-tick {
+    border: 0;
+    color: #fff;
+    background-color: #29a744;
+    margin-right: 8rem;
+    position: relative;
+}
+
+.title-02 {
+    font-size: 1rem;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.sub-tit {
+    font-size: 2rem;
+}
+
+.card-group {
+    margin: 10px 15rem;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+#stevej {
+    margin-right: 2rem;
+}
+
+#ada {
+    margin-left: 2rem;
+}
+
+.btn-sm {
+    padding: 0.01rem 0.1rem;
+    font-size: 0.8em;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.javas {
+    color: #000;
+}
+
+
+
+#body-card-end {
+    background-color: #353a40;
+    color: #fff;
+    font-size: 12.5px;
+    padding: 5px;
+}
+
+.text-form {
+    text-align: center;
+}
+
+
+#form-charla-name {
+margin-right: 15px;
+}
+
+#form-charla-lastname {
+    margin-left: 15px;
+}
+
+.text-charla-comment {
+    height: 150px;
+    max-height: 150px;
+    min-height: 150px;
+    margin-top: 20px;
+    margin-left: 20rem;
+    width: 44rem;
+    border-color: #cdd4da;
+}
+
+.sub-text-textarea {
+    margin-left: 20rem;
+    margin-top: -5px;
+}
+
+.send-form-charla {
+    color: #fff;
+    background-color: #96c93e;
+    width: 44rem;
+    margin-top: 15px;
+}
+
+
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+} 
+
+.footer {
+    background-color: #1d4358;
+    margin-top: 15px;
+    padding: 20px 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 14.28%;
+    padding: 0 15px;
+}
+
+.footer-col a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 450;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col a:hover {
+    color: #fff;
+    padding-left: 5px;
+}
+
+.oneline {
+    padding-top: 10px;
+}
+
